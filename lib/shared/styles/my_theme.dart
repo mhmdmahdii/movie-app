@@ -17,7 +17,11 @@ class MyThemeData {
   static final ThemeData lightTheme = ThemeData(
     primaryColor: primaryColor,
     scaffoldBackgroundColor: OnprimaryColor,
+    iconTheme: IconThemeData(
+      color: WhiteColor,
+    ),
     appBarTheme: AppBarTheme(
+        
         centerTitle: true,
         color: primaryColor,
         elevation: 0,
